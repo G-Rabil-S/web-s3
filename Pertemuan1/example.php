@@ -23,4 +23,16 @@
     for ($i=0; $i < 10; $i++) { 
         echo "Perulangan ke-$i <br> <hr>";
     }
+
+    //Function
+    function salam($nama, $tempat) {
+        $tgl = date("d-m-Y");
+        $waktu = date("H:i:s");
+        echo "Selamat datang di $tempat, $nama, hsti ini tanggal $tgl dan waktu $waktu <br>";
+        echo "<br><br>";
+    }
+
+    salam("Andi", "Taiwan");
+    salam("Vali", "Hawai");
+    salam("Mon Ami", "France");
 ?>
